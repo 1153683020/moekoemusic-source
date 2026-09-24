@@ -15,3 +15,5 @@
 **v6**：不使用`upnp-mediarenderer-client`提供控制流的封包，从`BubbleUPnP`软件中抓取控制流，手动构建并且发送`SOAP`请求。前几个版本的seek跟进度条不同步问题已修复，已经实现基本播放，seek拖动，同步进度条
 
 **v7**：简化控制包构建，兼容旧设备，基本功能不受影响。在此感谢[md3music](https://github.com/zzyoxml/md3Music)提供的`DLNA`思路
+
+**v8**：移除“投放一定需要登录”的逻辑，修复部分小问题。
